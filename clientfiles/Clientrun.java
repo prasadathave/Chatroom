@@ -4,10 +4,10 @@ import java.util.Scanner;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.*;
+import java.util.*;
 public class Clientrun
 {
     
-
     public static void main(String[] args) throws Exception {
         Scanner scn = new Scanner(System.in);
         Socket s;
@@ -31,6 +31,7 @@ public class Clientrun
                     }
                     catch(Exception e){
                         e.printStackTrace();
+                        break;
                         
                     }
 

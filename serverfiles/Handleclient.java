@@ -52,6 +52,7 @@ public class Handleclient implements Runnable{
             }
             catch(Exception e){
                 e.printStackTrace();
+                break;
             }
         }
         try{
